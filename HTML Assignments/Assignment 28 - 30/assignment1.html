@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Form for Jop" />
+        <meta type="author" content="Mohamed Hashem" />
+    </head>
+
+    <body>
+        <form method="GET" action="assignment1.html">
+            <lable>Username</lable>
+            <br />
+            <input
+                type="text"
+                name="usrname"
+                placeholder="Enter your Username"
+                autofocus
+                minlength="5"
+                maxlength="20"
+                required
+                />
+            <br />
+
+            <lable>Email</lable>
+            <br />
+            <input type="email" name="email" readonly value="o@o.com" />
+            <br />
+            <lable>Token</lable>
+            <br />
+            <input
+                type="token"
+                name="token"
+                hidden
+                value="b92f1fc2fce391ad7af633723afd3055"
+                />
+
+            <input type="submit" name="Send" />
+            <input type="reset" name="Empty" />
+        </form>
+    </body>
+</html>

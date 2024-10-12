@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Form for Jop" />
+        <meta type="author" content="Mohamed Hashem" />
+    </head>
+
+    <body>
+        <form method="GET" action="assignment1.html">
+            <div>
+
+                <lable>Username</lable>
+                <br />
+                <input
+                    type="text"
+                    name="usrname"
+                    placeholder="Enter your Username"
+                    autofocus
+                    minlength="5"
+                    maxlength="20"
+                    required
+                    />
+                <br/>
+
+                    <lable>Email</lable>
+                    <br />
+                    <input type="email" name="email" readonly value="o@o.com" />
+                    <br />
+                    <lable>Token</lable>
+                    <br />
+                    <input
+                        type="token"
+                        name="token"
+                        hidden
+                        value="b92f1fc2fce391ad7af633723afd3055"
+                        />
+                </div>
+
+                <hr>
+
+                <div>
+                    <h3>Skills</h3>
+                    <input type="checkbox" name="skills" value="PS" id="ps"
+                        checked
+                        />
+                    <label for="ps">Problem Solveing</label>
+                    <br />
+
+                    <input type="checkbox" name="skills" value="LT" id="lt" />
+                    <label for="lt"> Logical Thinking</label>
+                    <br />
+
+                    <input type="checkbox" name="skills" value="AS" id="as" />
+                    <label for="as">Advanced Search</label>
+                    <br />
+
+                    <input type="checkbox" name="skills" value="AP" id="ap" />
+                    <label for="ap">Analysis, Planning</label>
+                </div>
+
+                <hr>
+
+                <div>
+                    <h3>Jobs</h3>
+                    <input type="radio" name="job" value="FD" id="fd" checked />
+                    <label for="fd">Front-End Developer</label>
+                    <br />
+
+                    <input type="radio" name="job" value="BD" id="bd" />
+                    <label for="bd"> Back-End Developer</label>
+                    <br />
+
+                    <input type="radio" name="job" value="BA" id="ba" />
+                    <label for="ba">Business Analyst</label>
+                    <br />
+
+                    <input type="radio" name="job" value="PM" id="pm" />
+                    <label for="pm">Project Manager</label>
+                    <br />
+
+                    <input type="radio" name="job" value="SM" id="sm" />
+                    <label for="sm">Scrum Master</label>
+                </div>
+
+                <hr>
+
+                <div>
+                    <lable for="book">Choose Book</lable>
+                    <select id="book" name="Book">
+                        <optgroup label="PHP">
+                            <option value="1">v5.0</option>
+                            <option value="2">v7.0</option>
+                            <option value="3">v8.0</option>
+                        </optgroup>
+                        <optgroup label="Python">
+                            <option value="4">v2.0</option>
+                            <option value="5">v3.0</option>
+                            <option value="6">v3.9</option>
+                        </optgroup>
+                    </select>
+
+                </div>
+
+                <br>
+
+                <div>
+                    <textarea name="brief" rows="10" cols="20"
+                        placeholder="Write Here Why You Want To Learn
+                        Programming"></textarea>
+                </div>
+
+                <br>
+                <input type="submit" name="Send" />
+                <input type="reset" name="Empty" />
+            </form>
+        </body>
+    </html>
