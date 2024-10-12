@@ -1,0 +1,33 @@
+div {
+    margin: 200px auto;
+    background-color: #607D8B;
+    width: 200px;
+    height: 200px;
+    border-bottom: 5px solid black;
+    position: relative;
+}
+
+div::after {
+    content: '';
+    width: 138px;
+    height: 138px;
+    background-color: #000;
+    left: 28px;
+    top: -36%;
+    position: absolute;
+    transform: rotate(45deg);
+    border-bottom: 5px solid #fff;
+    border-right: 5px solid #fff;
+
+}
+
+div::before {
+    content: 'Elzero';
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'segoe ui light';
+    letter-spacing: 1px;
+}

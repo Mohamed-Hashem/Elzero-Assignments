@@ -1,0 +1,35 @@
+div {
+    width: calc(92%/4);
+    background-color: #eee;
+    float: left;
+    text-align: center;
+    margin: 1%;
+    font-weight: 600;
+    font-family: 'segoe ui light';
+}
+
+@media (min-width:990px) {
+    div {
+        width: calc(92%/4);
+    }
+
+    div h1 {
+        color: #199F93;
+    }
+}
+
+@media (min-width:576px) and (max-width:989px) {
+    div {
+        width: calc(92%/2);
+    }
+
+    div h1 {
+        color: #FE0C0C;
+    }
+}
+
+@media (max-width:575px) {
+    div {
+        width: 98%;
+    }
+}

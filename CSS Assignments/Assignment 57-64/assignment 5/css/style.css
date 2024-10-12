@@ -1,0 +1,23 @@
+.grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    justify-content: space-evenly;
+    align-content: space-between;
+    gap: 15px;
+    font-family: 'segoe ui light';
+    font-weight: 600;
+    color: white;
+    font-size: 1.5rem
+}
+
+.grid>div {
+    background-color: #E91E63;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

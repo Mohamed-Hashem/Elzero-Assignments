@@ -1,0 +1,75 @@
+:root {
+    --mainPadding: 1%;
+    --mainMargin: 1%;
+    --insiderColor: #ddd;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.page {
+    background-color: #eee;
+    width: 70%;
+    padding: var(--mainPadding);
+    font-weight: 600;
+    font-family: 'segoe ui light';
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page .header .logo {
+    width: 5%;
+    background-color: var(--insiderColor);
+    display: flex;
+    justify-content: center;
+    padding: var(--mainPadding);
+}
+
+.page .header .links {
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--insiderColor);
+    list-style: none;
+    padding: var(--mainPadding);
+    margin: 0;
+}
+
+.header .links li {
+    padding: 0px 10px;
+}
+
+.main-area {
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: var(--mainPadding);
+    margin-top: var(--mainMargin);
+}
+
+.main-area .content {
+    background-color: var(--insiderColor);
+    width: 70%;
+    padding: var(--mainPadding);
+}
+
+.main-area .sidebar {
+    width: 25%;
+    background-color: var(--insiderColor);
+    display: flex;
+    justify-content: flex-start;
+    padding: var(--mainPadding);
+}
+
+.footer {
+    background-color: var(--insiderColor);
+    display: flex;
+    justify-content: space-between;
+    padding: var(--mainPadding);
+}

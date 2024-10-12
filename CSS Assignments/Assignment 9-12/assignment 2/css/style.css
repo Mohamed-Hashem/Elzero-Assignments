@@ -1,0 +1,23 @@
+div {
+    width: 400px;
+    background-color: #EEEEEE;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.shape1 {
+    border-left-width: 10px;
+    border-left-style: solid;
+    border-left-color: purple;
+
+}
+
+.shape2 {
+    visibility: hidden;
+}
+
+.shape3 {
+    border-left-width: 10px;
+    border-left-style: solid;
+    border-left-color: green;
+}

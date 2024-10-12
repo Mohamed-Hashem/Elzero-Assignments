@@ -1,0 +1,15 @@
+div {
+    border: 2px solid red;
+    padding: 30px 50px;
+    text-align: center;
+}
+
+div p {
+    padding: inherit;
+    background-color: #DDDDDD;
+    border: inherit;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'segoe ui light';
+
+}

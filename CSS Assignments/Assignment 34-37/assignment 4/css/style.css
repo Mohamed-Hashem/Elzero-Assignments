@@ -1,0 +1,21 @@
+p {
+    background-color: #eee;
+    width: 50%;
+    padding: 20px;
+    font-family: 'segoe ui light';
+    font-weight: 600;
+    font-size: 2vw;
+    margin: 20px auto;
+    border-right: 10px solid #F44336;
+    position: relative;
+}
+
+p::before {
+    content: '';
+    height: 0;
+    padding: 40px;
+    background-color: #F44336;
+    position: absolute;
+    left: -80px;
+    top: 0px;
+}

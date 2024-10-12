@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    width: 600px;
+    background-color: #ddd;
+    padding: 2% 0;
+    text-align: center;
+    border-right: 10px solid #673AB7;
+    border-left: 10px solid red;
+    position: relative;
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 10px;
+}
+
+div::before {
+    content: '';
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    background: linear-gradient(to right, red 20%, blue 20%, blue 40%, green 40%, green 60%, #E91E63 60%, #E91E63 80%, #673AB7 80%);
+    width: 101%;
+    height: 10px;
+}
+
+div::after {
+    content: '';
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    background: linear-gradient(to right, red 20%, blue 20%, blue 40%, green 40%, green 60%, #E91E63 60%, #E91E63 80%, #673AB7 80%);
+    width: 101%;
+    height: 10px;
+}
+
+div::first-letter {
+    color: red;
+}

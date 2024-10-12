@@ -1,0 +1,37 @@
+:root {
+    --mainColor: #009688;
+    --elementColor: #fff;
+}
+
+h1 {
+    width: 150px;
+    margin: auto;
+    background-color: var(--mainColor);
+    text-align: center;
+    font-weight: 600;
+    padding: 20px 0px;
+    color: var(--elementColor);
+    position: relative;
+}
+
+h1::before {
+    content: '';
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    left: -30px;
+    top: 0%;
+    background-color: var(--elementColor);
+    transform: skewX(20deg);
+}
+
+h1::after {
+    content: '';
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    left: -15px;
+    top: 0%;
+    background-color: var(--mainColor);
+    transform: skewX(20deg);
+}

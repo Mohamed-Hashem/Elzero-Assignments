@@ -1,0 +1,25 @@
+div {
+    width: 400px;
+    text-align: center;
+    background-color: red;
+    color: black;
+    padding: 10px 40px;
+    border: 1px solid blue;
+    font-size: 5rem;
+    font-family: 'segoe ui light';
+    font-weight: 600;
+    position: relative;
+    margin: 50px auto;
+    /* text-indent: -9999px; */
+}
+
+div::after {
+    content: "Elzero";
+    position: absolute;
+    left: -1px;
+    top: -1px;
+    background-color: #F9F9F9;
+    width: 400px;
+    padding: 11px 41px;
+    text-indent: 0;
+}

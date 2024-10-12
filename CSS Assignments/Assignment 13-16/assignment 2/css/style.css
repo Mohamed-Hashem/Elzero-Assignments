@@ -1,0 +1,28 @@
+body {
+    background-color: teal;
+}
+
+div {
+    background-color: #A52A2A;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.one {
+    width: fit-content;
+}
+
+.two {
+    width: fit-content;
+}
+
+.three {
+    width: fit-content;
+}
+
+.four {
+    max-width: 400px;
+    height: 100px;
+    overflow: hidden;
+}

@@ -1,0 +1,53 @@
+div {
+    width: calc(92%/4);
+    background-color: #eee;
+    float: left;
+    text-align: center;
+    margin: 1%;
+    font-weight: 600;
+    font-family: 'segoe ui light';
+}
+
+@media (min-width:990px) {
+    .one {
+        width: 98%;
+    }
+
+    .two {
+        width: 48%;
+    }
+
+    .three {
+        width: 48%;
+    }
+
+    .four {
+        width: 98%;
+    }
+
+    div h1 {
+        color: #199F93;
+    }
+}
+
+@media (min-width:576px) and (max-width:989px) {
+    .one {
+        width: 98%;
+    }
+
+    .two,
+    .three,
+    .four {
+        width: calc(94%/3);
+    }
+
+    div h1 {
+        color: #FE0C0C;
+    }
+}
+
+@media (max-width:575px) {
+    div {
+        width: 98%;
+    }
+}

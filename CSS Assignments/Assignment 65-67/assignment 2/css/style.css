@@ -1,0 +1,25 @@
+div {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    margin: 20px auto;
+    font-size: 2rem;
+    font-weight: 600;
+    border: 10px solid #E91E63;
+    border-left: 10px solid transparent;
+    border-radius: 50%;
+    position: relative;
+}
+
+div::before {
+    content: '';
+    position: absolute;
+    width: 110%;
+    height: 110%;
+    border: 10px solid #2196F3;
+    border-radius: 50%;
+    border-right: 10px solid transparent;
+}

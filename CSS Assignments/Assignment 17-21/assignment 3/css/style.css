@@ -1,0 +1,21 @@
+div {
+    font-family: 'Segoe UI light';
+    font-weight: 600;
+    background-color: #eee;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+
+}
+
+.two {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: clip;
+}
+
+.three {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,16 @@
+.arrow {
+    width: 40%;
+    padding: 20px;
+    background-color: #eee;
+    font-size: 2rem;
+    margin: 50px;
+    position: relative;
+}
+
+/* .top {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+} */

@@ -1,0 +1,17 @@
+html {
+    font-size: 20px;
+    font-family: 'segoe ui light';
+    font-weight: 600;
+}
+
+.one {
+    font-size: 2.5rem;
+}
+
+.two {
+    font-size: 2rem;
+}
+
+.three {
+    font-size: 1.5rem;
+}

@@ -1,0 +1,106 @@
+body {
+    backface-visibility: hidden;
+    perspective: 600px;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 2s;
+}
+
+div:hover {
+    transform: rotateY(180deg)
+}
+
+div::before {
+    content: 'Front';
+    width: 100%;
+    height: 100%;
+    background-color: #FA3664;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'segoe ui light';
+    letter-spacing: 1px;
+}
+
+div::after {
+    content: 'Back';
+    width: 100%;
+    height: 100%;
+    background-color: #1692FC;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'segoe ui light';
+    letter-spacing: 1px;
+    transform: rotateY(180deg)
+}
+
+div+div {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 2s;
+}
+
+
+
+
+/* ////////////    Second Shape */
+
+
+
+
+
+
+div+div:hover {
+    transform: rotateX(180deg)
+}
+
+div+div::before {
+    content: 'Front';
+    width: 100%;
+    height: 100%;
+    background-color: #FA3664;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'segoe ui light';
+    letter-spacing: 1px;
+}
+
+div+div::after {
+    content: 'Back';
+    width: 100%;
+    height: 100%;
+    background-color: #1692FC;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'segoe ui light';
+    letter-spacing: 1px;
+    transform: rotateX(180deg)
+}

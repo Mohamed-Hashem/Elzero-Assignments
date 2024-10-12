@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: repeat(4, 24%);
+    grid-template-rows: repeat(9, calc(75%/9));
+    gap: 1%;
+    font-family: 'segoe ui light';
+}
+
+.parent span {
+    font-weight: 600;
+    color: #A8AAAD;
+}
+
+.parent h5 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: black;
+    margin: 2px 0px;
+}
+
+.parent .weightFont {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: black;
+    margin: 10px 0px;
+}
+
+.parent>div {
+    background-color: white;
+    padding: 20px;
+    border-bottom: 5px solid red;
+}
+
+
+.parent .osama {
+    grid-column: 1/3;
+    grid-row: 1/4;
+}
+
+.parent .Ahmed {
+    grid-row: 1/4;
+
+}
+
+.parent .Shady {
+    grid-row: 1/10;
+    color: white;
+    background-color: black;
+}
+
+.parent .Shady h5,
+.parent .Mahmoud h5,
+.parent .ibrahim-esayed h5,
+.parent .Shady .weightFont,
+.parent .Mahmoud .weightFont,
+.parent .ibrahim-esayed .weightFont {
+    color: white
+}
+
+.parent .Mohamed {
+    grid-row: 4/10;
+    grid-column: 1/2;
+}
+
+.parent .Mahmoud {
+    grid-row: 4/7;
+    grid-column: 2/4;
+    background-color: black;
+    color: white;
+}
+
+.parent .Ezz-eldeen {
+    grid-row: 7/10;
+    grid-column: 2/4;
+}
+
+.parent .ibrahim-esayed {
+    background-color: black;
+    color: white;
+}

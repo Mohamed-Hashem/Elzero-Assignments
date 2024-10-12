@@ -1,0 +1,17 @@
+p {
+    font-size: 2rem;
+    font-family: 'Segoe UI light';
+    font-weight: 600;
+}
+
+.one {
+    text-transform: uppercase;
+}
+
+.two {
+    text-transform: capitalize;
+}
+
+.three {
+    text-transform: lowercase;
+}

@@ -1,0 +1,20 @@
+div {
+    background-color: #D4D4D4;
+    padding: 50px;
+    width: fit-content;
+    font-family: 'segoe ui light';
+    font-weight: 600;
+    margin: auto;
+    font-size: 2rem;
+    position: relative;
+}
+
+div::before {
+    content: '1';
+    position: absolute;
+    padding: 20px;
+    background-color: red;
+    color: white;
+    left: -25px;
+    top: 30px;
+}

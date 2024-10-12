@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+.layout {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 10vh 80vh 10vh;
+    grid-template-areas: "header header header header header""section  section section section aside ""footer footer footer footer footer";
+    font-weight: 600;
+    color: white;
+    font-family: 'Segoe UI light';
+}
+
+.layout header {
+    background-color: #03A9F4;
+    grid-area: header;
+    position: relative;
+}
+
+.layout header::before {
+    content: "Header";
+    position: absolute;
+    margin: 25px 10px;
+}
+
+.layout section {
+    background-color: #FF5722;
+    grid-area: section;
+
+}
+
+.layout section::before {
+    content: "Section";
+    position: absolute;
+    margin: 25px 10px;
+}
+
+.layout aside {
+    background-color: #607D8B;
+    grid-area: aside;
+}
+
+.layout aside::before {
+    content: "Aside";
+    position: absolute;
+    margin: 25px 10px;
+}
+
+.layout footer {
+    background-color: #009688;
+    grid-area: footer;
+}
+
+.layout footer::before {
+    content: "Footer";
+    position: absolute;
+    margin: 25px 10px;
+}

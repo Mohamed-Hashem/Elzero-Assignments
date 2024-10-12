@@ -1,0 +1,181 @@
+:root {
+    --mainColor: black;
+}
+
+.parent {
+    width: 400px;
+    height: 600px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.parent .E {
+    width: 70px;
+    height: 100%;
+    background-color: var(--mainColor);
+    position: relative;
+    display: flex;
+}
+
+.parent .E .spin {
+    background-color: #FEA604;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 330%;
+    top: 1%;
+    animation: Spin1 5s 3s linear;
+}
+
+@keyframes Spin1 {
+    0% {
+        left: 330%;
+        top: 1%;
+    }
+
+    10% {
+        left: 22%;
+        top: 1%;
+    }
+
+    20% {
+        top: 51%;
+        left: 22%;
+
+    }
+
+    30% {
+        top: 51%;
+        left: 330%;
+    }
+
+    40% {
+        top: 51%;
+        left: 22%;
+    }
+
+    50% {
+        top: 92.5%;
+        left: 22%;
+    }
+
+    60% {
+        top: 92.5%;
+        left: 330%;
+    }
+
+    70% {
+        top: 92.5%;
+        left: 22%;
+    }
+
+    80% {
+        top: 51%;
+        left: 22%;
+    }
+
+    90% {
+        top: 1%;
+        left: 22%;
+    }
+
+    100% {
+        top: 1%;
+        left: 330%;
+    }
+}
+
+.parent .E .one-top {
+    width: 400%;
+    height: 50px;
+    background-color: var(--mainColor);
+    position: absolute;
+}
+
+
+.parent .E .one-half {
+    width: 400%;
+    height: 50px;
+    background-color: var(--mainColor);
+    position: absolute;
+    top: 50%;
+}
+
+.parent .E .one-bottom {
+    width: 400%;
+    height: 50px;
+    background-color: var(--mainColor);
+    position: absolute;
+    bottom: 0%;
+}
+
+.L {
+    width: 70px;
+    height: 100%;
+    background-color: var(--mainColor);
+    position: relative;
+}
+
+.parent .L .one-bottom {
+    width: 400%;
+    height: 50px;
+    background-color: var(--mainColor);
+    position: absolute;
+    bottom: 0%;
+}
+
+.parent .L .spin {
+    background-color: #FEA604;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 92.5%;
+    left: 330%;
+    animation: Spin2 3s linear;
+    opacity: 0;
+}
+
+@keyframes Spin2 {
+    0% {
+        top: 92.5%;
+        left: 330%;
+        opacity: 0;
+    }
+
+    20% {
+        top: 92.5%;
+        left: 22%;
+        opacity: 1;
+
+    }
+
+    40% {
+        top: 51%;
+        left: 22%;
+        opacity: 1;
+
+
+    }
+
+    60% {
+        top: 1%;
+        left: 22%;
+        opacity: 1;
+
+    }
+
+    80% {
+        top: 1%;
+        left: 22%;
+        opacity: 0;
+    }
+
+
+    100% {
+        opacity: 0;
+    }
+}

@@ -1,0 +1,45 @@
+div {
+    width: 400px;
+    background-color: #eee;
+    position: relative;
+    top: 200px;
+    left: 40%;
+    border: 3px solid;
+    border-color: #F44336 #2196F3;
+    padding: 20px;
+    line-height: 30px;
+    font-family: 'segoe ui light';
+    font-weight: 600;
+}
+
+div span {
+    color: white;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #2196F3;
+}
+
+div .top-left {
+    border-right: 2px solid red;
+    left: -4%;
+    top: -10%;
+}
+
+div .bottom-left {
+    border-right: 2px solid red;
+    left: -4%;
+    bottom: -10%;
+}
+
+div .top-right {
+    border-left: 2px solid red;
+    right: -4%;
+    top: -10%;
+}
+
+div .bottom-right {
+    border-left: 2px solid red;
+    bottom: -8%;
+    right: -4%;
+}

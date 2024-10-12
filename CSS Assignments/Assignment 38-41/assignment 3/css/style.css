@@ -1,0 +1,76 @@
+.parent {
+    width: 550px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'segoe ui light';
+    font-weight: 600;
+    color: white;
+    position: relative;
+    padding: 1%;
+    margin: 30px auto;
+    border: 1px solid black;
+}
+
+.left-child {
+    background-color: #eee;
+    width: 40%;
+    float: left;
+    padding: 3%;
+}
+
+.parent h3 {
+    background-color: #03A9F4;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+
+}
+
+.parent .circle {
+    width: 100%;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    background-color: #ddd;
+    color: black;
+
+}
+
+.parent .circle h5 {
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    font-size: 2rem;
+
+}
+
+.right-child {
+    background-color: #eee;
+    width: 40%;
+    float: right;
+    padding: 3%;
+}
+
+
+.clr {
+    clear: both;
+}
+
+.parent span {
+    width: 2px;
+    height: 91%;
+    background-color: #03A9F4;
+    position: absolute;
+    left: 50%;
+}
+
+.parent span::before {
+    content: 'Or';
+    position: absolute;
+    top: 45%;
+    left: -15px;
+    padding: 7px;
+    border-radius: 50%;
+    background-color: #03A9F4;
+}

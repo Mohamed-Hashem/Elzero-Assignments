@@ -1,0 +1,17 @@
+:root {
+    --mainColor: #009688;
+    --mainPadding: 10px;
+    --mainBorder: 2px solid #009688;
+    --mainMargin: 10px;
+    --mainWidth: 50%;
+}
+
+div {
+    width: var(--mainWidth, 50%);
+    color: var(--mainColor, red);
+    padding: var(--mainPadding, 10px);
+    border: var(--mainBorder, 2px solid black);
+    margin: var(--mainMargin, 10px);
+    font-family: 'segoe ui light';
+    font-weight: 600;
+}

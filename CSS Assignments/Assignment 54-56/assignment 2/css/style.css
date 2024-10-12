@@ -1,0 +1,31 @@
+div {
+    width: 600px;
+    background-color: #eee;
+    margin: 2% auto;
+    padding: 2%;
+    font-size: 2rem;
+    position: relative;
+}
+
+div::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(to right, red 50%, green 50%);
+    left: 0%;
+    bottom: 0%;
+}
+
+.two,
+.three {
+    color: gray
+}
+
+.elzero::before {
+    content: '|';
+    position: absolute;
+    color: red;
+    left: 17%;
+    top: 30%;
+}

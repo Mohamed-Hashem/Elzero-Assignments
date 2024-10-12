@@ -1,0 +1,22 @@
+div {
+  width: 500px;
+  margin: auto;
+  padding: 20px;
+}
+
+.div1 {
+  background-color: blueviolet;
+  background-color: rgb(152, 50, 199);
+  background-color: hsl(281, 59.8%, 48.8%)
+}
+
+.div2 {
+  background-color: rgb(152, 50, 199, 0.5);
+  background-color: hsl(281, 59.8%, 48.8%, 0.5);
+}
+
+.div3 {
+  background-color: rgb(152, 50, 199, 0.1);
+  background-color: hsl(281, 59.8%, 48.8%, 0.1);
+
+}

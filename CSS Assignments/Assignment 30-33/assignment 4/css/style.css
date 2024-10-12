@@ -1,0 +1,52 @@
+table {
+    margin: auto;
+    width: 700px;
+    background-color: #eee;
+    text-align: center;
+    border-collapse: collapse;
+    font-family: 'segoe ui light';
+    font-weight: 600;
+    border-bottom: 5px solid #05988A;
+
+}
+
+table caption {
+    margin: 15px 0px;
+}
+
+table thead th {
+    background-color: #404040;
+    color: white;
+    height: 60px;
+    border: 2px solid white;
+
+}
+
+table img {
+    width: 100px;
+    height: 100px;
+}
+
+table tr td {
+    border: 1px solid white;
+    padding: 10px;
+}
+
+table a {
+    text-decoration: none;
+    padding: 5px 15px;
+    background-color: red;
+    color: white
+}
+
+table .wide {
+    padding: 0px 30px
+}
+
+table .blue {
+    background-color: #03A9F4;
+}
+
+table .pink {
+    background-color: #E91E63;
+}

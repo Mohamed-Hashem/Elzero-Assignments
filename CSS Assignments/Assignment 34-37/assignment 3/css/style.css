@@ -1,0 +1,65 @@
+p {
+    background-color: #eee;
+    width: 25%;
+    padding: 20px;
+    font-family: 'segoe ui light';
+    font-weight: 600;
+    margin: 20px auto;
+    border-left: 5px solid #E91E63;
+    position: relative;
+}
+
+/* p::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: #E91E63;
+    position: absolute;
+    left: -13px;
+    top: 20px;
+    transform: rotate(45deg);
+    z-index: -1;
+} */
+
+p::before {
+    content: '';
+    border-style: solid;
+    border-width: 15px;
+    border-color: transparent #E91E63 transparent transparent;
+    position: absolute;
+    left: -31px;
+    top: 17px;
+}
+
+[data-person="Osama"]::after {
+    content: 'Osama';
+    background-color: #eee;
+    position: absolute;
+    left: -110px;
+    top: 10px;
+    width: 60px;
+    text-align: center;
+    padding: 10px;
+}
+
+[data-person="Ahmed"]::after {
+    content: 'Ahmed';
+    background-color: #eee;
+    position: absolute;
+    left: -110px;
+    top: 10px;
+    width: 60px;
+    text-align: center;
+    padding: 10px;
+}
+
+[data-person="Sayed"]::after {
+    content: 'Sayed';
+    background-color: #eee;
+    position: absolute;
+    width: 60px;
+    text-align: center;
+    left: -110px;
+    top: 10px;
+    padding: 10px;
+}

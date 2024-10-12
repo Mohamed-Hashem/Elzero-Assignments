@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.parent {
+    width: 600px;
+    height: 300px;
+    background-color: #eee;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'segoe ui light';
+    font-weight: 600;
+}
+
+div>div {
+    width: calc(93% /3);
+    background-color: #607D8B;
+    padding: 5px 0px;
+}
+
+.one {
+    display: flex;
+    align-self: stretch;
+    justify-content: center;
+    order: 5;
+    margin: 1%;
+
+}
+
+.two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 4;
+    margin: 1%;
+}
+
+.three {
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+    align-items: center;
+    order: 2;
+    margin: 1%;
+}
+
+.four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 2;
+    margin: 1%;
+}
+
+.five {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 3;
+    margin: 0% 1% 1% 1%;
+
+}
+
+.six {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1% 1% 0% 1%;
+}

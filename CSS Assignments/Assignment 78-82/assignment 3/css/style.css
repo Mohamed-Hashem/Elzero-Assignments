@@ -1,0 +1,3 @@
+.parent+.parent .baby:first-child {
+    color: red;
+}

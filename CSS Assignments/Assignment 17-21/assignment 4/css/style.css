@@ -1,0 +1,16 @@
+a {
+    padding: 20px;
+    background-color: #009688;
+    border-bottom: 10px solid #00514A;
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-family: 'Segoe UI light';
+    font-weight: 600;
+
+    margin: calc(100% / 2);
+
+    /* position: relative;
+    left: 50%; */
+}

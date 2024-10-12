@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.parent {
+    background-color: #eee;
+    width: 600px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'segoe ui light';
+    color: white;
+}
+
+.parent>div {
+    width: 15%;
+    height: calc(92%/2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+
+.one {
+    order: 1;
+    background-color: #FF9800;
+}
+
+.two {
+    order: 2;
+    display: flex;
+    align-self: flex-end;
+    background-color: #8BC34A;
+}
+
+.three {
+    order: 3;
+    background-color: #795548;
+}
+
+.four {
+    order: 0;
+    display: flex;
+    align-self: flex-end;
+    background-color: #673AB7;
+}
